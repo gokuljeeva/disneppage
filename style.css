@@ -1,0 +1,446 @@
+body {
+    margin-top: 30px;
+    background-color: white;
+    width: 100%;
+    height: 98%;
+    padding: 1%;
+}
+
+html {
+    padding: 0px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.part1 {
+    float: left;
+
+}
+
+.part2 {
+    font-family: 'Jura';
+    float: left;
+    font-style: normal;
+    color: #232323;
+    font-weight: 50;
+    font-size: 25px;
+    line-height: 33px;
+    width: 21px;
+    height: 33px;
+    letter-spacing: 0.1em;
+    width: 38%;
+    opacity: 0.9;
+}
+
+
+
+
+
+.part3 {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    width: 178px;
+    height: 24px;
+}
+
+.part4 {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    width: 178px;
+    height: 24px;
+    padding-left: 0px;
+    float: right;
+}
+
+
+#button {
+    font-family: 'Jura';
+    font-style: normal;
+    width: 170px;
+    height: 50px;
+    background: linear-gradient(90.4deg, #00FBFF 1.33%, #0770AB 98.8%);
+    box-shadow: -5px -5px 10px rgba(234, 242, 255, 0.75), 10px 10px 20px rgba(68, 100, 160, 0.75);
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 120px;
+    margin-right: 45px;
+}
+
+
+.content1 {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content1>div {
+    width: 50%
+}
+
+.centerleftside {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0px 0px 25px;
+}
+
+.section1 {
+    font-size: 18px;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.section2 {
+    bottom: 330px;
+    left: 65px;
+    position: absolute;
+}
+
+.section3 {
+    bottom: 350px;
+    left: 82px;
+    position: absolute;
+}
+
+
+.centerrightside {
+    display: flex;
+    flex-direction: column;
+    padding: 170px 0px 0px 35px;
+}
+
+.campaign {
+    width: 266px;
+    height: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+#slider {
+    direction: rtl;
+    width: 650px;
+    height: 14px; cursor: pointer; 
+}
+
+.limits {
+    display: flex;
+    flex-direction: row;
+}
+
+.limits>div {
+    width: 50%;
+}
+
+.ethvalue {
+    width: 244px;
+    height: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.target {
+    padding-left: 200px;
+    width: 244px;
+    height: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+#frame {
+    width: 556px;
+    height: 94px;
+    border-radius: 10px;
+    padding-left: 30px;
+    font-size: 26px;
+    opacity: 0.7;
+}
+
+.contribute {
+    width: 620px;
+    height: 70px;
+    background: linear-gradient(90.4deg, #00FBFF 1.33%, #0770AB 98.8%);
+    box-shadow: -5px -5px 10px rgba(234, 242, 255, 0.75), 10px 10px 20px rgba(68, 100, 160, 0.75);
+    border-radius: 15px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+
+.innertext {
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    padding-left: 240px;
+    width: 124px;
+    height: 30px;
+    line-height: 45px;
+}
+
+.lastcontent {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+
+.lastcontent>div {
+    width: 50%;
+}
+
+.lastleftside {
+    display: flex;
+    flex-direction: column;
+}
+
+.lastleftside>div {
+    padding: 30px 0px 0px 30px;
+}
+
+.iphonemini {
+    width: 211px;
+    height: 53px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.para1 {
+    width: 142px;
+    height: 35px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    opacity: 0.55;
+    letter-spacing: 0.72px;
+    line-height: 10px;
+}
+
+.para2 {
+    width: 624px;
+    height: 100px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    opacity: 0.55;
+    letter-spacing: 0.72px;
+    line-height: 25px;
+}
+
+.para3 {
+    width: 624px;
+    height: 100px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    opacity: 0.55;
+    letter-spacing: 0.72px;
+    line-height: 25px;
+}
+
+.para4 {
+    width: 624px;
+    height: 100px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    opacity: 0.55;
+    letter-spacing: 0.72px;
+    line-height: 25px;
+}
+
+.para5 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.para5>div {
+    width: 50%;
+}
+
+.mincontribution {
+    position: absolute;
+    top: 75px;
+    right: 370px;
+    text-align: center;
+    line-height: 1px;
+    width: 214px;
+    opacity: 0.55;
+    height: 47px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+#frame2 {
+    width: 114px;
+    border-radius: 7px;
+    opacity: 0.75;
+    height: 47px;
+    font-size: 25px;
+}
+
+.creators {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    text-align: center;
+    line-height: 1px;
+    width: 214px;
+    opacity: 0.55;
+    height: 47px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+#frame3 {
+    width: 314px;
+    border-radius: 7px;
+    opacity: 0.75;
+    height: 48px;
+    font-size: 25px;
+}
+
+.para6 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.para6>div {
+    width: 50%;
+}
+
+.total {
+    position: absolute;
+    top: 220px;
+    right: 370px;
+    text-align: center;
+    line-height: 1px;
+    width: 214px;
+    opacity: 0.55;
+    height: 47px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+#frame4 {
+    width: 54px;
+    border-radius: 7px;
+    opacity: 0.75;
+    height: 47px;
+    font-size: 25px;
+}
+
+.approve {
+    position: absolute;
+    top: 220px;
+    right: 195px;
+    text-align: center;
+    line-height: 1px;
+    width: 214px;
+    opacity: 0.55;
+    height: 47px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+#frame5 {
+    width: 54px;
+    border-radius: 7px;
+    opacity: 0.75;
+    height: 47px;
+    font-size: 25px;
+}
+
+
+.lastrightside {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.border {
+    width: 550px;
+    height: 115px;
+    background: rgba(117, 247, 255, 0.71);
+    border-radius: 6px;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+
+.line {
+    border-left: 3px solid blue;
+    height: 100px;
+    width: 4px;
+    position: absolute;
+    top: 125px;
+    left: 60px;
+}
+
+.withdrawcontent {
+    width: 425px;
+    height: 37px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 3px;
+    position: absolute;
+    top: 120px;
+    left: 80px;
+}
+
+#frame6 {
+    position: absolute;
+    top: 260px;
+    left: 50px;
+    width: 550px;
+    height: 65px;
+    opacity: 0.75;
+    background: linear-gradient(90.4deg, #00FBFF 1.33%, #0770AB 98.8%);
+    box-shadow: -5px -5px 10px rgba(234, 242, 255, 0.75), 10px 10px 20px rgba(68, 100, 160, 0.75);
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    opacity: 0.8;
+    font-family: 'Roboto';
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+}
